@@ -11,7 +11,7 @@ As a user I'm in a foreign land and I'm trying to figure out the weather forecas
 
 ## Mock Up
 
-[Screenshot](./assets/Images/screenshot.png)
+![Screenshot](./assets/Images/screenshot.png)
 
 ## Project Link
-[Project Link](https://skylardorn.github.io/WeatherDashboard/)
+![https://skylardorn.github.io/WeatherDashboard/](link)
