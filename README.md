@@ -14,4 +14,4 @@ As a user I'm in a foreign land and I'm trying to figure out the weather forecas
 ![Screenshot](./assets/Images/screenshot.png)
 
 ## Project Link
-![https://skylardorn.github.io/WeatherDashboard/](link)
+![Project Link](https://skylardorn.github.io/WeatherDashboard/))
