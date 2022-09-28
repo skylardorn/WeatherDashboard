@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Import google fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Import tailwind.css-->
+    <script defer src="https://cdn.tailwindcss.com"></script>
     <script defer src="./assets/script.js"></script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <a class="waves-effect waves-light btn-small">Button</a>
-        </nav>
+<body class="flex-column min-100-vh">
+    <header class="hero">
+        <h1 class="app-title">Weather Dashboard</h1>
     </header>
-    <div>
 
-    </div>
+    <main class="flex-row justify-space-between">
+        <section class="col-12 col-md-4">
+
+            <section class="card">
+                <form id="user-form" class="card-body">
+                <label class="form-label">Search by City:</label>
+                <input name="CitySearch" type="text" placeholder="Search.." id="weatherInputValue" />
+                <button class="btn" type="submit">Button</button>
+                <section class="col-12 col-md-8">
+                    <h2 class="subtitle">Showing weather for:<span id="repo-search-term"></span></h2>
+                    <section id="repos-container" class="list-group"></section>
+                </section>
+                </form>
+            </section>
+    </main>
 </body>
 </html>
