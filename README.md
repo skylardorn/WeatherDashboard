@@ -1,4 +1,4 @@
-# WeatherDashboard
+# Weather Dashboard
 
 
 ## Description
@@ -11,7 +11,7 @@ As a user I'm in a foreign land and I'm trying to figure out the weather forecas
 
 ## Mock Up
 
-[Screenshot](./assets/Images/screenshot.png)
+[./assets/Images/screenshot.png](Screenshot)
 
 ## Project Link
-[link](https://skylardorn.github.io/WeatherDashboard/)
+[https://skylardorn.github.io/WeatherDashboard/](link)
